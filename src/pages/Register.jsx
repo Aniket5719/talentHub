@@ -143,7 +143,7 @@ function Register() {
 
     try {
       const res = await axios.post(
-        "http://localhost:5000/users",
+        "https://talenthub-p6a5.onrender.com/users",
         user
       );
 

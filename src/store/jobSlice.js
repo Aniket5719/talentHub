@@ -10,7 +10,7 @@ export const fetchJobs = createAsyncThunk(
   'jobs/fetchJobs',
   async (_, thunkAPI) => {
     try {
-      const res = await axios.get('http://localhost:5000/jobs')
+      const res = await axios.get('https://talenthub-p6a5.onrender.com/jobs')
       return res.data;
     } catch (error) {
       return thunkAPI.rejectWithValue("Unable to load jobs")
@@ -21,7 +21,10 @@ export const fetchJobs = createAsyncThunk(
 export const applyToJob = createAsyncThunk(
   'apply/applyToJob',
   async (applicationData) => {
-    const res = await axios.post('http://localhost:5000/applications', applicationData)
+    const res = await axios.post(
+      'https://talenthub-p6a5.onrender.com/applications',
+      applicationData
+    )
     return res.data;
   }
 )
@@ -30,7 +33,9 @@ export const fetchApplications = createAsyncThunk(
   'fetchApplications',
   async (_, thunkAPI) => {
     try {
-      const res = await axios.get('http://localhost:5000/applications')
+      const res = await axios.get(
+        'https://talenthub-p6a5.onrender.com/applications'
+      )
       return res.data
     } catch (error) {
       return thunkAPI.rejectWithValue("Unable to load applications")

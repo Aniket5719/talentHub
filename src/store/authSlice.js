@@ -13,7 +13,7 @@ export const loginUser = createAsyncThunk(
     'auth/loginUser',
     async (loginData, thunkAPI) => {
         try {
-            const res = await axios.get('http://localhost:5000/users')
+            const res = await axios.get('https://talenthub-p6a5.onrender.com/users')
             const allUser = res.data
             const foundUser = allUser.find(
                 current => current.email === loginData.email

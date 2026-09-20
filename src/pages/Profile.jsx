@@ -59,7 +59,7 @@ const Profile = () => {
 
     try {
       const res = await axios.put(
-        `http://localhost:5000/users/${auth.user.id}`,
+        `https://talenthub-p6a5.onrender.com/users/${auth.user.id}`,
         {
           ...auth.user,
           name: formData.name,
