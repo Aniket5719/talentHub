@@ -1,0 +1,92 @@
+{
+  "users": [
+    {
+      "name": "rest",
+      "email": "rest@test.com",
+      "password": "12345",
+      "id": "btInVpnxIrc"
+    },
+    {
+      "name": "ravi1",
+      "email": "ravi@ravi.com",
+      "password": "12345",
+      "id": "GzrZ-2lpsIQ"
+    },
+    {
+      "name": "abc",
+      "email": "abc@abc.com",
+      "password": "12345",
+      "id": "bWUIoCajWSs"
+    },
+    {
+      "name": "abcd",
+      "email": "abcd@abcd.com",
+      "password": "12345",
+      "id": "Lq6P8ku_9oU"
+    }
+  ],
+  "jobs": [
+    {
+      "id": "1",
+      "title": "React Developer",
+      "company": "Infosys",
+      "location": "Bangalore",
+      "experience": "3-5 years",
+      "salary": "8-12 LPA",
+      "skills": [
+        "React",
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Frontend Developer",
+      "company": "TCS",
+      "location": "Pune",
+      "experience": "4-6 years",
+      "salary": "10-15 LPA",
+      "skills": [
+        "React",
+        "Redux",
+        "JavaScript",
+        "Tailwind"
+      ]
+    },
+    {
+      "id": "3",
+      "title": "UI Developer",
+      "company": "Wipro",
+      "location": "Hyderabad",
+      "experience": "2-4 years",
+      "salary": "7-10 LPA",
+      "skills": [
+        "React",
+        "HTML",
+        "CSS",
+        "Bootstrap"
+      ]
+    }
+  ],
+  "applications": [
+    {
+      "jobId": "2",
+      "status": "Applied",
+      "id": "dUPKN7b3CTQ"
+    },
+    {
+      "jobId": "3",
+      "status": "Applied",
+      "id": "XVcIU2iCBR4"
+    },
+    {
+      "jobId": "1",
+      "status": "Applied",
+      "id": "g-i7-kzn9Rg"
+    }
+  ],
+  "candidates": [],
+  "interviews": [],
+  "$schema": "./node_modules/json-server/schema.json"
+}
